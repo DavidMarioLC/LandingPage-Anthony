@@ -1,0 +1,173 @@
+:root {
+    /* fonts */
+    --arvo: 'Arvo', serif;
+    --cormorant: 'Cormorant', serif;
+    --inter: 'Inter', sans-serif;
+    /* color */
+    --softwhite: #EFF0F3;
+    --tertiary: #D9376E;
+    --orange: #FF8E3C;
+    --white: #FFFFFE;
+    --black: #0D0D0D;
+    --purple: #5928E5;
+}
+
+/* resets */
+body {
+
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header */
+.header {}
+
+.nav {}
+
+.space {
+    margin-left: 60px;
+}
+
+.header .menu {
+    height: 107px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    margin-right: 16px;
+
+}
+
+.header .menu .menu__link {
+    font-family: var(--cormorant);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 27px;
+    color: var(--black);
+}
+
+/* main */
+.main-perfil {
+    background-color: var(--black);
+    padding: 40px 32px 34px 16px;
+    position: relative;
+}
+
+.main-perfil__name {
+    margin: 0;
+    position: absolute;
+    left: -42px;
+    font-family: var(--cormorant);
+    font-weight: 400;
+    font-size: 2.18rem;
+    line-height: 45.7px;
+    color: var(--white);
+}
+
+.main-perfil__name-black {
+    color: var(--black);
+}
+
+.main-perfil__photo {
+    display: block;
+    margin-top: 70px;
+}
+
+.main-perfil__photo__img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.main-perfil__profession {
+    font-family: var(--cormorant);
+    font-size: 1.25rem;
+    color: var(--tertiary);
+    line-height: 27px;
+    font-weight: 500;
+}
+
+.main-perfil__description {
+    color: var(--white);
+    font-family: var(--cormorant);
+    font-size: 1.75rem;
+    line-height: 39.4px;
+    font-weight: 700;
+}
+
+/* posts */
+.posts {
+    margin-top: 40px;
+}
+
+.posts__title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: var(--cormorant);
+    color: var(--white);
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 26.4px;
+
+}
+
+.posts__list {}
+
+.posts__list__link {
+    display: inline-block;
+    color: var(--white);
+    font-family: var(--inter);
+    font-size: 0.8rem;
+    line-height: 21.6px;
+    margin-bottom: 16px;
+}
+
+.posts__list__link::before {
+    content: "- ";
+}
+
+.posts__list__date {
+    display: none;
+}
+
+/* footer */
+.footer {
+    margin-bottom: 48px;
+}
+
+.footer__content {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+    padding-left: 16px;
+}
+
+.footer .menu .menu__link {
+    display: block;
+    padding-bottom: 16px;
+    font-family: var(--cormorant);
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 27px;
+}
+
+.footer .username {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: var(--cormorant);
+    color: var(--tertiary);
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding-left: 16px;
+}
