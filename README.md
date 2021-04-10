@@ -27,3 +27,6 @@ css html Javascript
 ## :star2: Autor
 
 * **DavidMarioLC**  - [@DavidMarioLC](https://github.com/<DavidMarioLC>)
+
+> Puedes encontrar más proyectos en
+[LeonidasEsteban.com](https://leonidasesteban.com/proyectos/todos)
