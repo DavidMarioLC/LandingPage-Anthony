@@ -23,6 +23,8 @@
 
 }
 
+
+
 .header .menu {
     margin-right: 160px;
 
@@ -45,20 +47,27 @@
 
 }
 
-.main-perfil__info {
-    padding-left: 24px;
-    max-width: 422px;
-    padding-bottom: 120px;
-}
+
 
 .main-perfil__profession {
+    font-size: 1rem;
     transform: rotate(90deg);
     display: inline-block;
     margin: 0;
     margin-bottom: 24px;
     position: absolute;
-    top: 310px;
-    left: 460px;
+    top: 280px;
+    left: 216px;
+}
+
+.main-perfil__description {
+    font-size: 18px;
+}
+
+.main-perfil__info {
+    padding-left: 24px;
+    max-width: 422px;
+
 }
 
 .main-perfil__photo {
@@ -88,4 +97,27 @@
     display: inline-block;
     font-family: var(--cormorant);
     color: var(--tertiary);
+}
+
+@media screen and (min-width:1200px) {
+    .main-perfil__description {
+        font-size: 26px;
+    }
+
+    .main-perfil__info {
+        padding-left: 24px;
+        max-width: 422px;
+        padding-bottom: 120px;
+    }
+
+    .main-perfil__profession {
+        font-size: 1.25rem;
+        transform: rotate(90deg);
+        display: inline-block;
+        margin: 0;
+        margin-bottom: 24px;
+        position: absolute;
+        top: 310px;
+        left: 460px;
+    }
 }

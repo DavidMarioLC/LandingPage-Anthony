@@ -30,9 +30,7 @@ a {
 
 
 /* header */
-.header {}
 
-.nav {}
 
 .space {
     margin-left: 60px;
@@ -121,7 +119,7 @@ a {
 
 }
 
-.posts__list {}
+
 
 .posts__list__link {
     display: inline-block;
@@ -130,6 +128,10 @@ a {
     font-size: 0.8rem;
     line-height: 21.6px;
     margin-bottom: 16px;
+}
+
+.posts__list__link:hover {
+    color: #D9376E;
 }
 
 .posts__list__link::before {
